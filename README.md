@@ -99,4 +99,5 @@ Python 3.12.3
 docker inspect --format="{{ «HostConfig-Binds }}" ossp-container
 [./ossp_host_dir:/mnt/ossp_container_dir]
 </code></pre>
-> - This command code show a list of volume bindings for the ossp-container. These represent the directories/files on the computer that are mounted into the container.
+> - This command code show a list of volume bindings for the ossp-container. \
+> - These represent the directories/files on the computer that are mounted into the container.
