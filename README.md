@@ -64,11 +64,11 @@ git version 2.43.0
 </code></pre>
 
 <pre><code>
-    docker exec ossp-container python3 —-version
+docker exec ossp-container python3 —-version
 Python 3.12.3
 </code></pre>
 
 <pre><code>
-    docker inspect --format="{{ «HostConfig-Binds }}" ossp-container
+docker inspect --format="{{ «HostConfig-Binds }}" ossp-container
 [./ossp_host_dir:/mnt/ossp_container_dir]
 </code></pre>
