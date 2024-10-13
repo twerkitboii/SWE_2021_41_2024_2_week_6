@@ -40,8 +40,7 @@ else:
 
 ___
 ### Week 5 Assignment
-<pre>
-<code>
+<pre><code>
 docker exec ossp-container cat /etc/os-release
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
 NAME="Ubuntu"
