@@ -42,7 +42,14 @@ else:
 > - This code was made to check whether the number recieved from by input is a happy number or not.
 > - I first checked whether the number was out of range, and then followed the method at the task description.
 > - When the calculation is completed, I checked whether the result is 1 and if it is 1, I made the code to print out true, and if not, continue.
-> - If the calculated result is a number that was already done before, I made it stop. 
+> - If the calculated result is a number that was already done before, I made it stop.
+>> - Details
+>>> - isHappy fuction checks whether the number is within the integer range.
+>>> - getnext function calculates the sum of the squares of the digits of a given number. It repeatedly extracts each digit of the number by taking 'number % 10', squares the digit, adds it to the total sum, and removes the last digit by using integer division 'number //= 10'. The function returns the total sum, which is the next number in the happy number sequence.
+>>> - For the main function, the function uses a while loop to repeatedly apply the get_next() function to n until one of two conditions is met:
+If n becomes 1, it means the number is happy, and the function returns True.
+If the number n is seen again (meaning it entered a loop), the function returns False.
+A set seen is used to store numbers that have already appeared during the sequence to detect if the process enters a loop.
 ___
 ### Week 5 Assignment
 <pre><code>
