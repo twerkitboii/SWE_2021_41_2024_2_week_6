@@ -5,8 +5,7 @@ ___
 - Link
 >https://github.com/twerkitboii/SWE_2021_41_2024_2_week_4
 #### Week 4 Code
-<pre>
-<code>
+
     
 ```python
 def isHappy(n):
@@ -35,9 +34,7 @@ if isHappy(n):
 else:
     print("False")
 ```
-</code>
-    
-</pre>
+
 
 - Code Description
 > - This code was made to check whether the number recieved from by input is a happy number or not.
