@@ -80,7 +80,9 @@ LOG0=ubuntu-logo
 </code>
 </pre>
 > - exec: This command means 'execute', which allows specific commands to be executed in the container.
-    cat /etc/os-release :This command checks the os version on Linux. This container's OS is Ubuntu 24.04.
+    cat /etc/os-release :\
+>   This command checks the os version on Linux.
+>   This container's OS is Ubuntu 24.04.
 
 <pre><code>
 docker exec ossp-container git --version
