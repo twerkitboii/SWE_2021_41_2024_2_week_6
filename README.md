@@ -38,6 +38,10 @@ else:
     
 </pre>
 
+- Code Description
+> - This code was made to check whether the number recieved from by input is a happy number or not. I first checked whether the number was out of range, and then followed the method at the task description.
+> - When the calculation is completed, I checked whether the result is 1 and if it is 1, I made the code to print out true, and if not, continue.
+> - If the calculated result is a number that was already done before, I made it stop. 
 ___
 ### Week 5 Assignment
 <pre><code>
