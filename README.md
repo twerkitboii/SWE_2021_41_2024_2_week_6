@@ -60,7 +60,7 @@ A set seen is used to store numbers that have already appeared during the sequen
 >>> - So True is the output, and it can be checked by running my code.
 ___
 ### Week 5 Assignment
-<pre><code>
+```dockerfile
 docker exec ossp-container cat /etc/os-release
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
 NAME="Ubuntu"
@@ -75,27 +75,26 @@ BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 UBUNTU_CODENAME=noble
 LOG0=ubuntu-logo
-</code>
-</pre>
+```
 > - exec: This command means 'execute', which allows specific commands to be executed in the container. \
     cat /etc/os-release : This command checks the os version on Linux. \
 >   This container's OS is Ubuntu 24.04.
 
-```docker
+```dockerfile
 docker exec ossp-container git --version
 git version 2.43.0
 ```
 > - This command prints out the current version of git which my version is 2.43.0.
 
-<pre><code>
+```dockerfile
 docker exec ossp-container python3 —-version
 Python 3.12.3
-</code></pre>
+```
 > - This command prints out the current version of Python3 which my version is 3.12.3.
 
-<pre><code>
+```dockerfile
 docker inspect --format="{{ «HostConfig-Binds }}" ossp-container
 [./ossp_host_dir:/mnt/ossp_container_dir]
-</code></pre>
+```
 > - This command code show a list of volume bindings for the ossp-container. \
 > - These represent the directories/files on the computer that are mounted into the container.
