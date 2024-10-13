@@ -81,10 +81,10 @@ LOG0=ubuntu-logo
     cat /etc/os-release : This command checks the os version on Linux. \
 >   This container's OS is Ubuntu 24.04.
 
-<pre><code>
+```docker
 docker exec ossp-container git --version
 git version 2.43.0
-</code></pre>
+```
 > - This command prints out the current version of git which my version is 2.43.0.
 
 <pre><code>
