@@ -2,8 +2,8 @@
 ___
 ### Week 4 Assignment
 #### Week 4 repository link
-> - Link
->>https://github.com/twerkitboii/SWE_2021_41_2024_2_week_4
+- Link
+>https://github.com/twerkitboii/SWE_2021_41_2024_2_week_4
 #### Week 4 Code
 <pre>
 <code>
