@@ -55,36 +55,11 @@ A set seen is used to store numbers that have already appeared during the sequen
 >>> - If isHappy returns 1, the result is printed out as "True," if not, "False" is the result.
 >> - Example
 >>> - Here's an example when 19 is the input.
->>> - 1
-2
- + 
-9
-2
- = 1 + 81 = 82
-
-8
-2
- + 
-2
-2
- = 64 + 4 = 68
-
-6
-2
- + 
-8
-2
- = 36 + 64 = 100
-
-1
-2
- + 
-0
-2
- + 
-0
-2
- = 1
+>>> - $1^2$ + $9^2$ = 82
+>>> - $8^2$ + $2^2$ = 68
+>>> - $6^2$ + $8^2$ = 100
+>>> - $1^2$ + $0^2$ + $0^2$ = 1
+>>> - So True is the output, and it can be checked by running my code.
 ___
 ### Week 5 Assignment
 <pre><code>
