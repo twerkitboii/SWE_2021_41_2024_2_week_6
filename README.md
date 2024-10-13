@@ -2,7 +2,7 @@
 ### Week 4 Assignment
 <pre>
 <code>
-```    python
+```python
 def isHappy(n):
     if n>2^31-1:
         return 0
