@@ -40,7 +40,7 @@ else:
 
 ___
 ### Week 5 Assignment
-<pre><code>
+<code>
 docker exec ossp-container cat /etc/os-release
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
 NAME="Ubuntu"
@@ -56,4 +56,4 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 UBUNTU_CODENAME=noble
 LOG0=ubuntu-logo
 </code>
-</pre>
+
