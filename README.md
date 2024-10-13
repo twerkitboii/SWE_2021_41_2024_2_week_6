@@ -79,8 +79,8 @@ UBUNTU_CODENAME=noble
 LOG0=ubuntu-logo
 </code>
 </pre>
-> - exec: Commands that allow specific commands to be executed in the container.
-cat /etc/os-release : Command to check the os version on Linux. This container's OS is Ubuntu 24.04.
+> - exec: This command means 'execute', which allows specific commands to be executed in the container.
+    cat /etc/os-release :This command checks the os version on Linux. This container's OS is Ubuntu 24.04.
 
 <pre><code>
 docker exec ossp-container git --version
@@ -98,4 +98,4 @@ Python 3.12.3
 docker inspect --format="{{ «HostConfig-Binds }}" ossp-container
 [./ossp_host_dir:/mnt/ossp_container_dir]
 </code></pre>
-> - This command code will output a list of volume bindings for the ossp-container. These represent the directories/files on the computer that are mounted into the container.
+> - This command code show a list of volume bindings for the ossp-container. These represent the directories/files on the computer that are mounted into the container.
