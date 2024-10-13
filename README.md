@@ -1,5 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 ### Week 4 Assignment
+<pre>
+<code>
 '''python
 def isHappy(n):
     if n>2^31-1:
@@ -26,4 +28,6 @@ if isHappy(n):
     print("True")
 else:
     print("False")
-'''
+</code>
+    
+</pre>
