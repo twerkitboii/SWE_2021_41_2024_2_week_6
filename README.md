@@ -53,6 +53,38 @@ If n becomes 1, it means the number is happy, and the function returns True. \
 If the number n is seen again (meaning it entered a loop), the function returns False. \
 A set seen is used to store numbers that have already appeared during the sequence to detect if the process enters a loop.
 >>> - If isHappy returns 1, the result is printed out as "True," if not, "False" is the result.
+>> - Example
+>>> - Here's an example when 19 is the input.
+>>> - 1
+2
+ + 
+9
+2
+ = 1 + 81 = 82
+
+8
+2
+ + 
+2
+2
+ = 64 + 4 = 68
+
+6
+2
+ + 
+8
+2
+ = 36 + 64 = 100
+
+1
+2
+ + 
+0
+2
+ + 
+0
+2
+ = 1
 ___
 ### Week 5 Assignment
 <pre><code>
