@@ -49,8 +49,8 @@ else:
 >>>   It repeatedly extracts each digit of the number by taking 'number % 10', squares the digit, adds it to the total sum, and removes the last digit by using integer division 'number //= 10'.\
 >>>   The function returns the total sum, which is the next number in the happy number sequence.
 >>> - For the main function, the function uses a while loop to repeatedly apply the get_next() function to n until one of two conditions is met:
-If n becomes 1, it means the number is happy, and the function returns True.
-If the number n is seen again (meaning it entered a loop), the function returns False.
+If n becomes 1, it means the number is happy, and the function returns True. \
+If the number n is seen again (meaning it entered a loop), the function returns False. \
 A set seen is used to store numbers that have already appeared during the sequence to detect if the process enters a loop.
 ___
 ### Week 5 Assignment
